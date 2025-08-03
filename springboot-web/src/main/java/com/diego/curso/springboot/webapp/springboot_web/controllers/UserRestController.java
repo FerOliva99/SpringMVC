@@ -50,7 +50,7 @@ public class UserRestController {
     public List<User> listUsers() {
         User usuario1 = new User("Karen", "Melgar", 26);
         User usuario2 = new User("Diego", "Oliva", 25);
-        User usuario3 = new User("Oscar", "Hernandez", 35);
+        // User usuario3 = new User("Oscar", "Hernandez", 35);
 
         /*
          * List<User> usuarios = new ArrayList<>();
@@ -60,7 +60,7 @@ public class UserRestController {
          * return usuarios;
          */
 
-        List<User> usuarios = Arrays.asList(usuario1, usuario2, usuario3);
+        List<User> usuarios = Arrays.asList(usuario1, usuario2);
         return usuarios;
     }
 }
