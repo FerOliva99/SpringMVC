@@ -11,6 +11,8 @@
         <li th:text="${name}"></li>
         <li th:text="${lastname}"></li>
         <li th:text="${age}"></li>
+        <li th:text="${email != null} ? 'Correo: ' + ${email} : 'No tiene correo'"></li>
+        <li th:if="${age > 18}">Es mayor de edad</li>
     </ul>
 </body>
 </html>
